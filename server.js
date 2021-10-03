@@ -18,7 +18,7 @@ app.use(
   })
 );
 
-app.use(require("./controllers"));
+app.use(require("./services"));
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
